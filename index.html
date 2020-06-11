@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>BOOKSHOP</title>
+   <meta name="description" content="#">
+	<meta name="keywords" content="#">	   
+
+   <!-- Favicon -->
+   <link rel="shortcut icon" href="#">
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins&display=swap" rel="stylesheet">
+   <!-- Normalize.css -->
+   <link rel="stylesheet" href="css/normalize.css">
+   <!-- Animate.css -->
+   <link rel="stylesheet" href="css/animate.min.css">
+   <!-- Owl Carousel  -->
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+   <!-- Styles -->
+   <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="start">
+   <!-- header -->
+   <header class="header">   
+      <div class="container">      
+         <!-- header__row -->
+         <div class="header__row">
+            <a href="#start"><img src="img/logo.png" alt="Bookshop"></a>            
+            <form action="#" class="header__search">            
+               <input type="search" class="header__search-input input" placeholder="Search ...">               
+               <button type="submit" class="header__search-button"></button>
+            </form>    
+            <div class="header__user">
+               <button id="open" class="avatar"><img src="img/avatar.png" alt="Avatar" ></button>
+            </div>            
+         </div>
+         <!-- menu -->
+         <div class="menu">
+            <div class="burger-menu">
+               <a href="#" class="burger-menu__button">
+                  <span class="burger-menu__lines"></span>
+               </a>            
+               <ul class="burger-menu__nav" id="menu">
+                  <li class="burger-menu__item"><a href="#home" class="burger-menu__link burger-menu__link-active">eBook Purchase</a></li>
+                  <li class="burger-menu__item"><a href="#preview" class="burger-menu__link">eBook Preview</a></li>
+                  <li class="burger-menu__item"><a href="#reviews" class="burger-menu__link">Reviews</a></li>
+                  <li class="burger-menu__item"><a href="#aboutauthor" class="burger-menu__link">Author</a></li>
+                  <li class="burger-menu__item"><a href="#contact" class="burger-menu__link">Contact</a></li>
+               </ul>
+            </div>
+         </div>      
+      </div>             
+   </header>
+   <main>
+      <!-- slider -->
+      <section class="slider">
+         <div class="container">
+            <div class="slider-carousel owl-carousel owl-theme">
+               <!-- slider-1 -->
+               <div class="slider__block ">
+                  <div class="slider__main">
+                     <h1 class="slider__main-title">Back to school</h1>
+                     <h2 class="slider__main-subtitle">Special 50% off</h2>
+                     <p class="slider__main-text">For our student community</p>
+                     <div class="slider__main-button">
+                        <input class="button slider__main-btn popup-btn" type="button" value="get the deal"/>
+                     </div>
+                  </div>
+                  <div class="slider__image">
+                     <img src="img/slider01.png" alt="image">
+                  </div>
+               </div>
+               <!-- slider-2 -->
+               <div class="slider__block ">
+                  <div class="slider__main">
+                     <h1 class="slider__main-title">Back to school</h1>
+                     <h2 class="slider__main-subtitle">Special 50% off</h2>
+                     <p class="slider__main-text">For our student community</p>
+                     <div class="slider__main-button">
+                        <input class="button slider__main-btn popup-btn" type="button" value="get the deal">
+                     </div>
+                  </div>
+                  <div class="slider__image slider__image-2">
+                     <img src="img/Layer_10.png" alt="image">
+                  </div>
+               </div>
+                  
+            </div>
+         </div>
+      </section>       
+         
+      <div class="container">
+         <!-- features -->
+         <section class="features" id="home">
+            <ul class="features__box">
+               <!-- features-item-1 -->
+               <li class="features__box-item features__box-item1">
+                  <h3 class="features__box-item-subtitle">Quick Delivery</h3>
+                  <p class="features__box-item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+               </li>
+               <!-- features-item-2 -->
+               <li class="features__box-item features__box-item2">
+                  <h3 class="features__box-item-subtitle">Pay with Easy</h3>
+                  <p class="features__box-item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+               </li>
+               <!-- features-item-3 -->
+               <li class="features__box-item features__box-item3">
+                  <h3 class="features__box-item-subtitle">Best Deal</h3>
+                  <p class="features__box-item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>            
+               </li>
+               <!-- features-item-4 -->
+               <li class="features__box-item features__box-item4">
+                  <h3 class="features__box-item-subtitle">Secured Payment</h3>
+                  <p class="features__box-item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>            
+               </li>
+            </ul>         
+         </section>
+         
+         <hr class="line">
+         <!-- purchase -->
+         <section class="purchase">
+            <h2 class="purchase__title title">It's easy as this</h2>
+            <p class="purchase__text">Four easy steps to get your new eBook. What are your waiting for?</p>
+            <ul class="purchase__block">
+               <!-- purchase-item-1 -->
+               <li class="purchase__block-item wow flipInX" data-wow-duration="1.5s">
+                  <div class="purchase__block-item-circle purchase__block-item-circle1"><img src="img/purchase01.png" alt=""></div>
+                  <h3 class="purchase__block-item-subtitle">eBook Preview</h3>
+                  <p class="purchase__block-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+               </li>
+               <!-- purchase-item-2 -->
+               <li class="purchase__block-item wow flipInX" data-wow-delay=".2s" data-wow-duration="1.5s">
+                  <div class="purchase__block-item-circle purchase__block-item-circle2"><img src="img/purchase02.png" alt=""></div>
+                  <h3 class="purchase__block-item-subtitle">Purchase eBook</h3>
+                  <p class="purchase__block-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+               </li>
+               <!-- purchase-item-3 -->
+               <li class="purchase__block-item wow flipInX" data-wow-delay=".4s" data-wow-duration="1.5s">
+                  <div class="purchase__block-item-circle purchase__block-item-circle3"><img src="img/purchase03.png" alt=""></div>
+                  <h3 class="purchase__block-item-subtitle">Select format</h3>
+                  <p class="purchase__block-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+               </li>
+               <!-- purchase-item-4 -->
+               <li class="purchase__block-item wow flipInX" data-wow-delay=".6s" data-wow-duration="1.5s">
+                  <div class="purchase__block-item-circle purchase__block-item-circle4"><img src="img/purchase04.png" alt=""></div>
+                  <h3 class="purchase__block-item-subtitle">Start Reading</h3>
+                  <p class="purchase__block-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+               </li>
+            </ul>
+            <div class="purchase__button">
+               <input class="button purchase__button-btn popup-btn" type="button" value="get the deal"/>
+            </div>                 
+         </section>
+
+         <hr class="line"> 
+         <!-- preview -->
+         <section class="preview" id="preview">
+            <h2 class="preview__title title">eBook Preview</h2>
+            <p class="preview__text">This is how your new eBook will look.</p>
+            <div class="preview__ebook">
+               <div class="preview__ebook-ipad">
+                  <img class="preview__ebook-ipad-screen" src="img/iPad.png" alt="iPad">               
+                  <img class="preview__ebook-ipad-image" src="img/man_preview.png" alt="man">
+               </div>
+               <!-- preview__ebook-list -->
+               <div class="preview__ebook-list">
+                  <ul >
+                     <!-- preview__ebook-list-item-1 -->
+                     <li class="preview__ebook-list-item wow flipInX" data-wow-duration="1.5s">
+                        <div class="preview__ebook-list-item-circle"><img src="img/preview01.png" alt=""></div>
+                        <div class="preview__ebook-list-item-text">
+                           <h3>Ready to print</h3>
+                           <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        </div>
+                     </li>
+                     <!-- preview__ebook-list-item-2 -->
+                     <li class="preview__ebook-list-item wow flipInX" data-wow-delay=".2s" data-wow-duration="1.5s">
+                        <div class="preview__ebook-list-item-circle"><img src="img/preview02.png" alt=""></div>
+                        <div class="preview__ebook-list-item-text">
+                           <h3>Easy to read</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        </div>
+                     </li>
+                     <!-- preview__ebook-list-item-3 -->
+                     <li class="preview__ebook-list-item wow flipInX" data-wow-delay=".4s" data-wow-duration="1.5s">
+                        <div class="preview__ebook-list-item-circle"><img src="img/preview03.png" alt=""></div>
+                        <div class="preview__ebook-list-item-text">
+                           <h3>Well organised</h3>
+                           <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+
+         <hr class="line"> 
+         <!-- reviews -->
+         <section class="reviews" id="reviews">
+            <h2 class="reviews__title title">Clients Reviews</h2>
+            <p class="reviews__text">A few reviews from satisfied clients.</p>
+            <ul class="reviews__block">
+               <!-- reviews__block-item-1 -->
+               <li class="reviews__block-item wow zoomIn" data-wow-delay=".2s" data-wow-duration="1.5s">
+                  <img class="reviews__block-item-foto" src="img/avatar_client.png" alt="avatar">
+                  <h4 class="reviews__block-item-nameclient">Andrei Fredy</h4>
+                  <p class="reviews__block-item-fromcountry">client from romania</p>
+                  <p class="reviews__block-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. et dolore magna aliqua. Tuis ipsum suspendisse ultrices gravida.</p>
+                  <p class="reviews__block-item-rate">Rate this review</p>
+                  <div class="reviews__block-item-stars">
+                     <img src="img/star.png" alt="star">
+                     <img src="img/star.png" alt="star">
+                     <img src="img/star.png" alt="star">
+                     <img src="img/star.png" alt="star">
+                     <img src="img/star1.png" alt="star">
+                  </div>
+               </li>
+               <!-- reviews__block-item-2 -->
+               <li class="reviews__block-item wow zoomIn" data-wow-delay=".4s" data-wow-duration="1.5s">
+                  <img class="reviews__block-item-foto" src="img/avatar_client.png" alt="avatar">
+                  <h4 class="reviews__block-item-nameclient">Andrei Fredy</h4>
+                  <p class="reviews__block-item-fromcountry">client from romania</p>
+                  <p class="reviews__block-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. et dolore magna aliqua. Tuis ipsum suspendisse ultrices gravida.</p>
+                  <p class="reviews__block-item-rate">Rate this review</p>
+                  <div class="reviews__block-item-stars">
+                     <img src="img/star.png" alt="star">
+                     <img src="img/star.png" alt="star">
+                     <img src="img/star.png" alt="star">
+                     <img src="img/star.png" alt="star">
+                     <img src="img/star1.png" alt="star">
+                  </div>
+               </li>
+               <!-- reviews__block-item-3 -->
+               <li class="reviews__block-item wow zoomIn" data-wow-delay=".6s" data-wow-duration="1.5s">
+                  <img class="reviews__block-item-foto" src="img/avatar_client.png" alt="avatar">
+                  <h4 class="reviews__block-item-nameclient">Andrei Fredy</h4>
+                  <p class="reviews__block-item-fromcountry">client from romania</p>
+                  <p class="reviews__block-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. et dolore magna aliqua. Tuis ipsum suspendisse ultrices gravida.</p>
+                  <p class="reviews__block-item-rate">Rate this review</p>
+                  <div class="reviews__block-item-stars">
+                     <img src="img/star.png" alt="star">
+                     <img src="img/star.png" alt="star">
+                     <img src="img/star.png" alt="star">
+                     <img src="img/star.png" alt="star">
+                     <img src="img/star1.png" alt="star">
+                  </div>
+               </li>
+            </ul>
+         </section>
+      </div>
+         
+      <!-- social -->
+      <section class="social">
+         <div class="social__block wow image">
+            <h2 class="social__block-number">12.000+</h2>
+            <p class="social__block-text">copies sold all over the world</p>
+            <a href="https://ru-ru.facebook.com/" class="social__block-facebook"><img src="img/facebook-logo.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/" class="social__block-instagram"><img src="img/instagram-logo.png" alt="instagram"></a>
+            <a href="https://twitter.com/" class="social__block-twitter"><img src="img/twitter-logo.png" alt="twitter"></a>
+         </div>
+         <div class="social__image wow fadeInRight">
+            <img src="img/slider01.png" alt="image">
+         </div>
+      </section>      
+
+      <!-- author -->
+      <section class="author" id="aboutauthor">
+         <img class="author__image animated wow fadeInLeft" src="img/06.png" alt="image">
+         <div class="author__about">
+            <h3><q>This book is a piece from heaven</q> </h3>
+            <blockquote>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+               <span class="author__about-name"><strong>Mark Jackson</strong> - Author</span>
+            </blockquote>
+            <div class="author__button">
+               <input class="button author__button-btn popup-btn" type="button" value="buy eBook"/>
+            </div>
+         </div>            
+      </section>       
+
+      <hr class="line">   
+
+      <div class="container">
+         <!-- contact -->
+         <section class="contact" id="contact">
+            <h2 class="contact__title title">Contact</h2>
+            <div class="contact__block">
+               <div class="contact__block-links">
+                  <p><span>Phone: </span><a href="tel:+000-000-0000">000-000-0000</a></p>
+                  <p><span>Email: </span><a href="mailto:your@example.com">your@example.com</a></p>
+                  <p class="contact__block-links-address">1701 N. Charles Street Baltimore, MD 21202</p>
+                  <p >MON-FRI 09.00 - 18.00<br>SAT-SUN 10.00 - 18.00</p>
+               </div>
+               <!-- contact__block-form -->
+               <form action="#" class="contact__block-form">
+                  <input type="text" class="contact__block-form-name input" placeholder="Name">
+                  <input type="email" class="contact__block-form-email input" placeholder="Email Address">
+                  <input type="text" class="contact__block-form-message input" placeholder="Massage">
+                  <button type="submit" class="contact__block-form-btn button">send message</button>
+               </form>
+            </div>
+         </section>      
+      </div>
+   </main>  
+
+   <!-- footer -->
+   <footer class="footer">
+      <div class="container">
+         <div class="footer__block">
+            <a class="footer__block-logo" href="#start"><img src="img/Logo-copy.png" alt="logo"> </a>
+            <!-- footer__block-nav -->
+            <ul class="footer__block-nav">
+               <li class="footer__block-item">
+                  <a class="footer__block-link footer__block-link-active" href="#home">eBook Purchase</a>
+               </li>
+               <li class="footer__block-item">
+                  <a class="footer__block-link" href="#preview">eBook Preview</a>
+               </li>
+               <li class="footer__block-item">
+                  <a class="footer__block-link" href="#reviews">Reviews</a>
+               </li>
+               <li class="footer__block-item">
+                  <a class="footer__block-link" href="#author">Author</a>
+               </li>
+               <li class="footer__block-item">
+                  <a class="footer__block-link" href="#contant">Contact</a>
+               </li>
+            </ul>
+            <!-- footer__block-social -->
+            <div class="footer__block-social">
+               <a href="https://ru-ru.facebook.com/" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
+               <a href="https://www.instagram.com/?hl=ru" target="_blank"><img src="img/instagram.png" alt="instagram"></a>
+               <a href="https://www.pinterest.ru/" target="_blank"><img src="img/pinterest.png" alt="pinterest"></a>
+            </div>
+         </div>
+         <!-- footer__copyright -->
+         <p class="footer__copyright"> &copy; 2018 <a href="http://hogash.com/" target="_blank">Hogash Studio.</a>All rights reserved.</p>
+      </div>   
+   </footer>
+
+   <!-- modal -->
+   <div class="modal" id="modal">
+      <div class="modal-body">
+         <button class="modal-close" id="close">&times;</button>
+         <h3>LOGIN</h3>
+         <form action="#">                  
+            <label class="label" for="email">Email:</label>
+            <input class="modal__input" id="email" type="email">                  
+            <label class="label" for="password">Password:</label>
+            <input class="modal__input" id="password" type="password">                  
+            <button class="button modal__button" type="submit">SIGN IN</button>                  
+         </form>
+      </div>
+   </div>
+      
+   <!-- scroll-to-top-btn -->
+   <button class="scroll-to-top-btn"><img src="img/up_arrow.png" alt="arrow"></button>
+
+
+   <!-- jQuery -->
+   <script src="js/jquery-3.5.0.min.js"></script>
+   <!-- wow-animation -->
+   <script src="js/wow-animation/wow.min.js"></script>
+   <script>
+      new WOW().init();
+   </script>
+   <!-- owl carousel -->
+   <script src="js/owl.carousel.min.js"></script>
+   <!-- script -->
+   <script src="js/script.js"></script>   
+</body>
+</html>

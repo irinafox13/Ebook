@@ -30,13 +30,15 @@ $bgCircle: #16062a;
 }
 
 %hoverGradient {
-   animation: flow 2s ease-in infinite;
-   background: linear-gradient(45deg,$gradientLeft, $gradientRight);
+   animation: flow 2s ease-in infinite;     
+   background-image: linear-gradient(to right, $gradientLeft, $gradientRight); background-image: transparent;
    background-size: 150%;
    -webkit-background-clip: text;
    background-clip: text;
    -webkit-text-fill-color: transparent;
+   
 }
+
 
 @keyframes flow {
    0% {
@@ -110,7 +112,7 @@ body {
    text-transform: uppercase;
    color: $primary-color;
    padding: 21px 87px;   
-   background: linear-gradient(to right, $gradientLeft, $gradientRight);  
+   background-image: linear-gradient(to right, $gradientLeft, $gradientRight);  
    transition: box-shadow 0.3s ease-in-out,
                transform 0.3s ease-in;  
 

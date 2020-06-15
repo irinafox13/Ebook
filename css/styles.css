@@ -16,7 +16,9 @@
 .purchase:hover .purchase__title, .preview:hover .preview__title, .reviews:hover .reviews__title, .contact:hover .contact__title {
   -webkit-animation: flow 2s ease-in infinite;
           animation: flow 2s ease-in infinite;
-  background: linear-gradient(45deg, #33e9b3, #487bc0);
+  background-image: -webkit-gradient(linear, left top, right top, from(#33e9b3), to(#487bc0));
+  background-image: linear-gradient(to right, #33e9b3, #487bc0);
+  background-image: transparent;
   background-size: 150%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -129,8 +131,8 @@ body {
   text-transform: uppercase;
   color: #fff;
   padding: 21px 87px;
-  background: -webkit-gradient(linear, left top, right top, from(#33e9b3), to(#487bc0));
-  background: linear-gradient(to right, #33e9b3, #487bc0);
+  background-image: -webkit-gradient(linear, left top, right top, from(#33e9b3), to(#487bc0));
+  background-image: linear-gradient(to right, #33e9b3, #487bc0);
   -webkit-transition: -webkit-box-shadow 0.3s ease-in-out, -webkit-transform 0.3s ease-in;
   transition: -webkit-box-shadow 0.3s ease-in-out, -webkit-transform 0.3s ease-in;
   transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in;

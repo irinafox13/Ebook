@@ -191,13 +191,13 @@ body {
    }      
 }
 
-
                                        /*Header*/
 
 .header { 
    max-width: 100%;
    background-color: #17183d;
    padding-top: 15px;   
+   
    position: fixed;
    top: 0;
    right: 0;
@@ -206,9 +206,10 @@ body {
 
    &__row {
       display: flex;
-      width: 100%;
+      max-width: 1170px;
       justify-content: space-between;
       align-items: center;
+      margin: 0 auto;
       @media (max-width: 625px) {
          flex-wrap: wrap;
       }
@@ -721,7 +722,9 @@ body {
          flex: 1 1 50%; 
          margin-top: 48px;
          margin-left: 8%; 
-
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
          &-item {
             display: flex;
             align-items: center;
@@ -1252,10 +1255,10 @@ body {
 }
 @media (max-width: 1120px) {
    .preview__ebook {
-      flex-flow: column;
-      margin-top: 5%;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin-top: 5%;      
       &-ipad {
          display: flex;
          justify-content: center;

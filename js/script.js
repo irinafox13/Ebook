@@ -46,7 +46,7 @@ $(document).ready(function () {
         $('html, body').animate({ scrollTop: 0 }, 360);
         return false;
         });
-    });
+    
 
 
 // burger-menu
@@ -76,9 +76,10 @@ $(document).ready(function () {
     }
     burgerMenu ('.burger-menu');
 
-// owl-carousel
+    // owl-carousel
 
-$('.owl-carousel').owlCarousel({
-    nav:true,
-    items:1        
+    $('.owl-carousel').owlCarousel({
+        nav:true,
+        items:1        
+    });
 });

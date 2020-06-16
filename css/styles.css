@@ -23,6 +23,8 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
 }
 
 @-webkit-keyframes flow {
@@ -176,6 +178,8 @@ body {
   color: #fff;
   font-weight: 300;
   font-size: 16px;
+  -webkit-transition: border-color 0.3s linear;
+  transition: border-color 0.3s linear;
 }
 
 .input:hover {
@@ -349,11 +353,16 @@ body {
   border: none;
   background: transparent;
   outline: none;
+  -webkit-transition: -webkit-transform 0.5s linear;
+  transition: -webkit-transform 0.5s linear;
+  transition: transform 0.5s linear;
+  transition: transform 0.5s linear, -webkit-transform 0.5s linear;
+  cursor: pointer;
 }
 
 .header__user:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .header .burger-menu__nav {
@@ -419,6 +428,8 @@ body {
   color: #bbafca;
   font-size: 16px;
   letter-spacing: 1px;
+  -webkit-transition: color 0.3s linear;
+  transition: color 0.3s linear;
 }
 
 .header .burger-menu__link:hover {
@@ -1240,6 +1251,8 @@ body {
 .footer__block-logo {
   margin-left: 11px;
   margin-right: 5%;
+  -webkit-transition: background-image 0.2s linear;
+  transition: background-image 0.2s linear;
 }
 
 .footer__block-logo:hover {
@@ -1273,6 +1286,8 @@ body {
   text-decoration: none;
   color: #bbafca;
   font-size: 16px;
+  -webkit-transition: color 0.2s linear;
+  transition: color 0.2s linear;
 }
 
 .footer__block-link:hover {
@@ -1289,13 +1304,15 @@ body {
 
 .footer__block-social a {
   padding-left: 25px;
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
 }
 
 .footer__block-social a:hover {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
 }
 
 .footer__copyright {
